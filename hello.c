@@ -13,12 +13,11 @@ int main()
     printf("1. If yes, press '1'\n");
     printf("2. If no, press '0' \n\n");
     scanf("%d", &i);
-    
 
     if (i==1)
           {
         printf("You game starts now! \n Good luck buddy ;)\n");
-      
+
     }
     else if(i==0)
     {
@@ -27,8 +26,6 @@ int main()
     else {
         printf("Invalid operation!\n Quiting the game");
     }
-
-
 
     if(i == 1){
             printf("a) What is the first ever search engine on the internet?\n\n");
@@ -48,12 +45,10 @@ int main()
         point01 = 0;
         printf("You have scored %d points\n", point01);
     }
-    
-          
-          
-        
+
+
     if(i == 1){
-          
+
         printf("b) What is the full form of CPU?\n\n");
     printf("1. Central Progress University\n");
     printf("2. Central Processor Unit\n");
@@ -76,7 +71,7 @@ int main()
 
 
     if(i == 1){
-          
+
         printf("c) How many search engines are in the world right now?\n\n");
     printf("1. over 1300\n");
     printf("2. over 100\n");
@@ -99,11 +94,11 @@ int main()
 
 
     if(i == 1){
-          
+
         printf("d) What is the full form CORE?\n\n");
     printf("1. Central Organization for Railway Electrification\n");
     printf("2. Central Organized Railway of Ethernet\n");
-    printf("3. Cascading Style Sheet\n");                                                       
+    printf("3. Cascading Style Sheet\n");
     printf("4. Canel Operation for Runway Electrification\n");
     printf("Enter your answer here: ");
     scanf("%d", &ans4);
@@ -122,11 +117,11 @@ int main()
 
 
    if(i == 1){
-          
+
         printf("e) What is the first  programmable, electronic, general-purpose digital computer in the world?\n\n");
     printf("1. EDSAC\n");
     printf("2. ENIAC\n");
-    printf("3. Abacus\n");                                                       
+    printf("3. Abacus\n");
     printf("4. Z2\n");
     printf("Enter your answer here: ");
     scanf("%d", &ans4);
@@ -142,11 +137,11 @@ int main()
     }
     }
 
-   
+
    total = point1+ point2 + point3 + point4 + point5;
     printf("\n\n");
 
     printf("Your total scores: %d", total);
-    
+
     return 0;
 }
