@@ -15,8 +15,6 @@ int main()
     scanf("%d", &i);
     
 
-
-
     if (i==1)
           {
         printf("You game starts now! \n Good luck buddy ;)\n");
